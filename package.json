@@ -1,8 +1,7 @@
-
 {
   "name": "react-native-lock-detection",
   "version": "1.0.0",
-  "description": "",
+  "description": "Library to detect when the phone is locked or not",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +9,8 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "Elías Rodelo",
+  "license": "ISC",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
