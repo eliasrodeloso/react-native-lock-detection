@@ -1,14 +1,28 @@
-# react-native-lock-detection
+# React Native Lock Detection
+
+Let know your app when the phone is locked or not. (iOS & Android)
 
 ## Getting started
 
-`$ npm install react-native-lock-detection --save`
+This is not published in NPM yet, so, if you want to use it you need to download it from GitHub or clone it and follow this:
+
+Go to the folder where you have the library and run:
+
+`$ yarn link`
+
+After, go to your **project** folder and run:
+
+`$ yarn link react-native-lock-detection`
 
 ### Mostly automatic installation
+
+Like this is native, you need to link the library, run:
 
 `$ react-native link react-native-lock-detection`
 
 ### Manual installation
+
+In case the previous command doesn't do it's job, follow the next steps:
 
 #### iOS
 
@@ -72,7 +86,7 @@ For iOS, once the event has been fired, it sends an object with the following st
 }
 ```
 
-With the value being one of "LOCKED" or "NOT_LOCKED". _Note_ that it sends `NOT_LOCKED` instead of `UNLOCKED` meaning that it doesn't detect if the phone is unlocked or not. (This is because of the Darwin Notifications)
+With the value being one of `"LOCKED"` or `"NOT_LOCKED"`. **Note** that it sends `NOT_LOCKED` instead of `UNLOCKED` meaning that it doesn't detect if the phone is unlocked or not. (This is because of the Darwin Notifications)
 
 ## Android
 
