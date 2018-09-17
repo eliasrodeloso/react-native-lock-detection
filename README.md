@@ -68,8 +68,12 @@ For iOS, once the event has been fired, it sends an object with the following st
 
 ```json
 {
-  "newStatus": "LOCKED" // With the value being one of "LOCKED" or "NOT_LOCKED"
+  "newStatus": "LOCKED"
 }
 ```
 
-_Note_ that it sends `NOT_LOCKED` instead of `UNLOCKED` meaning that it doesn't detect if the phone is unlocked or not. (This is because of the Darwin Notifications)
+With the value being one of "LOCKED" or "NOT_LOCKED". _Note_ that it sends `NOT_LOCKED` instead of `UNLOCKED` meaning that it doesn't detect if the phone is unlocked or not. (This is because of the Darwin Notifications)
+
+## Android
+
+TODO: write Android documentation
